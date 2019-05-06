@@ -1,0 +1,9 @@
+.chat-list{
+    
+}
+
+.list-group.list-group-flush{
+	height: 500px;
+	overflow: scroll;
+}
+
