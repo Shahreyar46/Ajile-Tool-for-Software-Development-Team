@@ -1,0 +1,12 @@
+{
+    "name": "shimul/ajila",
+    "authors": [
+        {
+            "name": "shimul",
+            "email": "shimul@gmail.com"
+        }
+    ],
+    "require": {
+        "pusher/pusher-php-server": "^3.2"
+    }
+}

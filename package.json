@@ -1,0 +1,24 @@
+{
+  "name": "Ajila",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "shimul",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.22.2",
+    "vue": "^2.5.17",
+    "vue-chat-scroll": "^1.3.3"
+  }
+}
