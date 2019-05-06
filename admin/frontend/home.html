@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Home </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <style>
+        body{
+            background-color:#dce0db;
+        }
+        .navbar{
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="home.html"> PROJECTS TOOL </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- <ul class="navbar-nav mr-auto">
+                </ul> -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenunotify" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-bell"></i> <sup> <span class="badge badge-danger"> 5 </span> </sup>
+                        </a>
+                                
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenunotify">
+                            <a class="dropdown-item" href="#"> Notification one </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"> Notification two </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"> Notification three </a>
+                        </div>
+                    </li>
+                       
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user"></i> Teo Lambert
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#"> User Profile </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="index.html"> Logout </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="list-group text-success">
+                    <a class="list-group-item list-group-item-action" href="home.html"> <i class="fas fa-bezier-curve"></i> All Projects </a>
+                    <a class="list-group-item list-group-item-action" href="task.html"> <i class="fas fa-tasks"></i> My Tasks </a>
+                    <a class="list-group-item list-group-item-action" href="meeting.html"> <i class="fas fa-mail-bulk"></i> Setup Meeting </a>
+                    <a class="list-group-item list-group-item-action" href="advancement.html"> <i class="far fa-hourglass"></i> Show Task Advancement </a>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="text-right">
+                    <a class="btn btn-outline-success" href="createproject.html"> <i class="fas fa-plus"></i> Create Project </a>
+                </div> <br>
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="text-center"> List of Projects </h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-bordered table-light table-sm table-hover text-center">
+                            <thead class="bg-light">
+                                <tr>
+                                    <th> ID </th>
+                                    <th> PROJECT NAME </th>
+                                    <th> CUSTOMER NAME </th>
+                                    <th> DEADLINE </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> 01 </td>
+                                    <td> <a class="btn" href="singleproject.html"> Project Management Tool </a> </td>
+                                    <td> Willford </td>
+                                    <th> 12-12-2018 </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"> </script>
+    <script src="js/bootstrap.js"> </script>
+</body>
+</html>
