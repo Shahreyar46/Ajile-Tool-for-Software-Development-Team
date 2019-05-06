@@ -1,0 +1,57 @@
+.list-group.list-group-flush{
+    height: 500px;
+    overflow: scroll;
+}
+
+li.list-group-item {
+    cursor: pointer;
+}
+
+
+
+#chat_box{
+    position: fixed;
+    width: 320px;
+    bottom: 0px;
+    right: 220px;
+    display: none;
+}
+
+/*.msgfeed {*/
+    /*height: 300px;*/
+    /*background: #cac9c9;*/
+    /*overflow-y: scroll;*/
+/*}*/
+
+.msgfeed>ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    height: 300px;
+    background: #cac9c9;
+    overflow-y: scroll;
+}
+
+.msgfeed>ul>li{
+    padding: 5px;
+    border-bottom: 1px solid #9fcdff;
+}
+.msgfeed>ul>li>.text{
+}
+.msgfeed>ul>li>.by{
+    font-size: 10px;
+    font-weight: bold;
+}
+.msgfeed>ul>li.rcv{
+    background: #afadad;
+}
+.msgfeed>ul>li.sent{
+    background: #c1c1c1;
+}
+
+.msgsentbtn {
+    width: 100%;
+    border: 0px;
+    height: 50px;
+    padding-left: 20px;
+}
