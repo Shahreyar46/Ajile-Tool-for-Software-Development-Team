@@ -1,0 +1,2 @@
+# Ajile-Tool-for-Software-Development-Team
+The main concept of the application is to monitor working progress of developer teams. Project Manager can create project, assign tasks and add people on project. Project manager can assign  meeting date for projects. Developers can see assign task and send their working progress. Developers can see meeting information. All users can send messages to each other. Super Admin can change a user as project manager or developer.
